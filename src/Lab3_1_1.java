@@ -3,7 +3,9 @@ public class Lab3_1_1 {
 
         double startValue = 14000;
         System.out.println("Inwestycja po 3 latach wynosi: " + Math.round(revalue(startValue)) );
-
+        System.out.format("%.2f", revalue(startValue)  );
+        System.out.println();
+        System.out.printf("%.2f",revalue(startValue ));
 
 
     }
