@@ -4,10 +4,11 @@ public class Main {
 
     public static void main(String[] args) {
 
-        BigDecimal value , result, m1;
-         value = new BigDecimal("14000");
-         m1 = new BigDecimal("1.433");
-         result = value.multiply(m1);
-        System.out.println(result);
+        BigDecimal value, result, m1;
+        double x =1.14d;
+        value = new BigDecimal("14000");
+        m1 = new BigDecimal(x);
+        result = value.multiply(m1);
+        System.out.printf("%.2f",result);
     }
 }
