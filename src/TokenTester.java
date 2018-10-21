@@ -19,6 +19,8 @@ public class TokenTester {
         System.out.println(st2.nextToken());
         System.out.println(st2.nextToken());
         System.out.println(st2.nextToken());
+
+
     }
 }
 
