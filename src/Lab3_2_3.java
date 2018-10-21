@@ -13,5 +13,7 @@ public class Lab3_2_3 {
         Lab3_2_3 l3 = new Lab3_2_3();
         System.out.println(counter);
 
+
+
     }
 }
